@@ -1,0 +1,33 @@
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#FFF;
+	width:100%;
+	font-family:serif;
+	color:#000;
+}
+.wrapper {
+	width:100%;
+	clear:both;
+}
+#header, #header-left {
+	width:100%;
+	text-align:center;
+}
+#header h1 {color:#0397d7; font-weight:bold;}
+#content h2, #content h3, #content h5 {
+	font-weight:bold;
+	margin-top:20px;
+}
+#cse-search-form, #menu, #submenu, .social, .addthis_toolbox, #footer img, #sidebar, #rotating-item-wrapper {display:none;}
+#main {width:100%;}
+#content div {text-align:left; width:100%;}
+#content p {margin-bottom:10px;}
+#footer {
+	width:100%;
+	margin-top:.5in;
+}

@@ -1,0 +1,313 @@
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#FDC275 url(graphics/top_swoop.png) top right no-repeat;
+	font-family: Tahoma, sans-serif;
+	font-size:medium;
+	color:#333;
+}
+
+#header h1 {
+	padding-top:10px;
+	color:#0397d7;
+    float:left;
+    font-size:x-large;
+}
+
+#content h2, #content h3, #content h5 {
+	font-family: 'Nothing You Could Do', cursive;
+	font-weight:bold;
+	margin-top:10px;
+}
+#content h2 {
+	color:#0397d7;/*#8ac53e;*/
+	font-size:xx-large;
+	background:url(graphics/arrow.gif) no-repeat left center;
+	padding-left:40px;
+	text-align:left;
+}
+
+#content h3 {
+	color:#333;
+	font-size:x-large;
+}
+
+#content h4 {
+	color:#333;
+	font-size:medium;
+	padding-bottom:5px;
+}
+
+#content h5 {
+	color:#333;
+	font-size:large;
+	margin-top:20px;
+}
+
+#content p {
+	margin-bottom:10px;
+}
+
+li {
+	margin:0 0 5px 10px;
+}
+
+ul, ol {
+	margin-bottom:10px;
+	padding:0 0 10px 20px;
+}
+
+ul {
+	list-style-type:square;
+	/*color:#0397d7;*/
+}
+
+.subtitle {
+	background:#518014;
+	padding:5px;
+	margin-bottom:20px;
+	color:#FFF;
+	font-weight:bold;
+	font-size:small;
+	text-align:center;
+}
+
+.image-right {
+	float:right;
+	margin-left:10px;
+}
+
+table.full {
+	width:100%;
+}
+td {
+	padding:10px;
+	vertical-align:top;
+}
+th {
+	background:#8ac53e;
+	padding:5px 10px;
+	text-align:left;
+}
+td.year {
+	background:#8ac53e!important;
+	text-align:right;
+}
+tr.shade td {
+	background:#BDE28D;
+}
+
+a {
+	color:#739448;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.wrapper {
+	margin:0 auto;
+	width:1000px;
+}
+
+#sub {
+	background:url(graphics/menu_fade1.png) top left repeat-x #fc9005;
+	display:none;
+	text-align:center;
+	font-size:small;
+	font-weight:bold;
+	padding:10px;
+}
+
+#header {
+	background:url(graphics/top_swoop.png) top right no-repeat #6CC5EB;
+}
+
+#header-left {
+	background:url(graphics/little_logo.png) bottom left no-repeat;
+	height:105px;
+}
+#header img {float:left;}
+/*
+#header-right {
+	float:right;
+	width:500px;
+	height:100px;
+}*/
+
+.printOnly {display:none;}
+
+#menu {
+	clear:both;
+	background:url(graphics/menu_fade1.png) top left repeat-x #fc9005; /*a65800;*/
+	height:50px;
+	padding:0 10px;
+}
+
+#menu a {
+	display:block;
+	float:left;
+	height:25px;
+	margin:5px 10px;
+	padding:10px 10px 0 10px;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+	border:0;
+    border-radius:8px;
+    -moz-border-radius:8px;     /* Firefox 3.6 and earlier */
+}
+
+#menu a:hover {
+	background:#FFA540;
+}
+
+#menu a#cur {
+	background:#FFA540;
+}
+
+#submenu {
+	background:#fc9005; /*a65800*/
+	color:#FFF;
+	font-weight:bold;
+	font-size:smaller;
+	height:20px;
+	padding:0 10px;
+}
+#submenu a {
+	color:#FFF;
+	display:block;
+	padding:0 10px;
+	float:left;
+	margin:0 5px;
+}
+
+#main-back {
+	/*background:#8ac53e;*/
+	float:right;
+	width:50px;
+	margin:10px;
+}
+
+#main {
+	background:url(graphics/sidebar1.png) top left repeat-y #FFF;
+	padding-left: 150px;   /* LC width */
+	/*padding-right: 200px;  /* RC width */
+	margin-right:50px;
+	width:800px;
+}
+
+.column {
+	float:left;
+	position:relative;
+}
+
+.container {
+	padding:10px 20px;
+	width:auto;
+}
+
+#sidebar {
+	text-align:right;
+	width:150px;
+	right:150px;
+	margin-left:-100%;
+	font-size:medium;
+}
+
+#sidebar img {
+	float:right;
+    margin-left:5px;
+}
+
+#sidebar h3 {
+	background:#518014;
+	margin:0 0 5px 0;
+	padding:5px 20px;
+	color:#FFF;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size:large;
+	font-weight:bold;
+	clear:both;
+}
+
+#sidebar a {
+	display:block;
+	color:#333;
+	margin-bottom:5px;
+}
+
+#content {
+	width:100%;
+}
+
+form {
+	text-align:center;
+}
+form#volunteer fieldset {
+	text-align:right;
+	border:1px solid #739448;
+	padding:5px;
+	margin-bottom:10px;
+}
+form#one2one fieldset, form#dsm-form fieldset {
+	text-align:left;
+	border:1px solid #739448;
+	padding:5px;
+	margin-bottom:10px;
+}
+input {border:1px solid #999; line-height:1.5em;}
+input[type=text] {width:100%;}
+input[type=button], input[type=submit] {background:#CCC; padding:5px; margin:0;}
+
+textarea, select {
+	border:1px solid #999; line-height:1.5em;
+	width:100%;
+}
+
+.addthis_toolbox, .addthis_toolbox *, .social {
+	text-align:right;
+	float:right;
+}
+
+#menu-bottom {
+	background:url(graphics/UoG_tag.png) top right no-repeat;
+	height:50px;
+	padding:0 50px 0 150px;
+	width:700px;
+}
+
+#menu-bottom-back {
+	clear:both;
+	background:url(graphics/menu_fade1.png) top left repeat-x #fc9005;
+	height:50px;
+}
+
+.clear {
+	clear:both;
+}
+
+#footer-back {
+	background:#fc9005; /*a65800*/
+	width:1000px;
+}
+
+#footer {
+	background:#FDC275/*url(graphics/UoG_logo.png) top right no-repeat*/;
+	margin-left:150px;
+	padding:0 50px 0 20px;
+	font-size:small;
+	width:780px;
+}
+
+#footer a {
+	color:#333;
+	text-decoration:underline;
+}

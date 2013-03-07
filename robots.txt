@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Disallow: /weekendregistration.html
+Disallow: /main.html
+Disallow: /weekendregistration.html
+Disallow: /StudentVolunteerGrantPolicy.pdf
+Disallow: /dsm_keynote.html
+Disallow: /contact.html
+Disallow: /images/new/whatwedo/Survey totals.pdf
+Disallow: /images/new/whatwedo/Resource-Library_ByTitle2009.pdf
+Disallow: /docs/SVC_SVG-application.pdf
+Disallow: /docs/StaffHours.html
+Disallow: /www.onlinevolunteering.org
+Disallow: /www.kiva.org
+Disallow: /images/new/whatw...ry2009.pdf
+Disallow: /sustainability_week.html
+Disallow: /programmes.html
+Disallow: /volunteer.html
+Disallow: /services.html
+Disallow: /about.html
+Disallow: /programs.html
+Disallow: /images/jobs/Job Description for Community Relations Manager.pdf
+Disallow: /images/jobs/Job Description for Projects Manager.pdf
+Disallow: /images/jobs/Job Description for Director.pdf
+Disallow: /images/jobs/boardapplication.doc

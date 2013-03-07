@@ -1,0 +1,14 @@
+/*CSS*/
+
+.row {width:100%;}
+.hide, .social-buttons, .navbar, a[href*="-bio"] {display:none;}
+
+p {font-family: 'Times New Roman', serif;}
+
+h1,h2,h3,h4 {
+    font-family: Arial, sans-serif;
+    text-align:left;
+}
+
+tr {page-break-before:always;}
+h1 small {color:#CCC;}

@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^(.*)\.html$ http://www.uoguelph.ca/~svc/$1.php [R=301]
+RewriteRule ^psac.php http://www.uoguelph.ca/~svc/funding.php [R=301]
+RewriteRule ^programs.php http://www.uoguelph.ca/~svc/ [R=301]
+RewriteRule ^dsm_(.*)\.php http://www.uoguelph.ca/~svc/dsm-weekend.php [R=301]
+RewriteRule ^dosomuch.php http://www.uoguelph.ca/~svc/dsm-weekend.php [R=301]
+RewriteRule ^dsm-weekend.php http://www.uoguelph.ca/~svc/weekend/ [R=301]
+RewriteRule ^dsm-weekend-(.*).php$ http://www.uoguelph.ca/~svc/weekend/$1.php [R=301]
+RewriteRule ^ourstory.php http://www.uoguelph.ca/~svc/story.php [R=301]
+RewriteRule ^organizations.php http://www.uoguelph.ca/~svc/ [R=301]
